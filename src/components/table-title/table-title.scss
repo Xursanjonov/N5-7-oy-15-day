@@ -1,0 +1,47 @@
+.customers-title {
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #343a40;
+
+    .id {
+        width: 40px;
+    }
+
+    .name {
+        width: 120px;
+    }
+
+    .address {
+        width: 120px;
+    }
+
+    .tel {
+        width: 120px;
+    }
+
+    .price {
+        width: 141px;
+        text-align: center;
+    }
+
+    .more {
+        width: 111px;
+        text-align: center;
+    }
+
+    .btns {
+        width: 150px;
+        text-align: center;
+    }
+}

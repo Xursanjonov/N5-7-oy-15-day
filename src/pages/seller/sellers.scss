@@ -1,0 +1,16 @@
+.sellers {
+    max-width: 1210px;
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    // gap: 10px;
+}
+
+.sellers__li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}

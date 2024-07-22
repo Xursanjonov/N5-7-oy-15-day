@@ -1,0 +1,130 @@
+.customers {
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+
+    .customers-ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.update-form {
+    max-width: 660px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: transparent;
+
+    .create-label {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        font-family: Roboto;
+        font-weight: 600;
+        background-color: white;
+        gap: 15px;
+    }
+
+    .create-input {
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        background-color: white;
+        border-radius: 5px;
+        border: 0;
+        border-bottom: 2px solid blue;
+    }
+
+    .update-btn {
+        width: 300px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        border: 0;
+        border-top: 2px solid blue;
+        border-bottom: 2px solid blue;
+        background-color: aqua;
+    }
+}
+
+// pin
+.id {
+    position: relative;
+
+    .pin {
+        left: 0;
+        position: absolute;
+        padding: 4px;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: transparent;
+        transform: translate(-105%, -60%);
+    }
+}
+
+// all_filter
+.all__filter {
+    width: 100%;
+    margin: 20px 0;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 5px;
+
+        span {
+            font-weight: 700;
+            color: blue;
+        }
+    }
+
+    .debt {
+        width: 150px;
+        padding: 5px 10px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        border: 1.4px solid gray;
+        border-radius: 6px;
+    }
+
+    .budget {
+        width: 180px;
+        padding: 5px 10px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        border: 1.4px solid gray;
+        border-radius: 6px;
+    }
+}
+
+// stack
+.stack {
+    width: 100%;
+    margin: 30px auto;
+}
